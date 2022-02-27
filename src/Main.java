@@ -16,11 +16,11 @@ public class Main
 			
 			if (ans.equals("cat"))
 			{
-				System.out.println("INSERT CAT IMAGE HERE");
+				System.out.println(" _._     _,-\'\"\"`-._\n(,-.`._,\'(       |\\`-/|\n    `-.-\' \\ )-`( , o o)\n          `-    \\`_`\"\'-");
 			}
 			else if (ans.equals("dog"))
 			{
-				System.out.println("INSERT DOG IMAGE HERE");
+				System.out.println("                                  .-.\n     (___________________________()6 `-,\n     (   ______________________   /\'\'\"`\n     //\\\\                      //\\\\\n     \"\" \"\"                     \"\" \"\"");
 			}
 			else
 			{
