@@ -13,9 +13,13 @@ public class Main
 		{
 			System.out.println("INSERT CAT IMAGE HERE");
 		}
-		else 
+		else if (ans.equals("dog"))
 		{
 			System.out.println("INSERT DOG IMAGE HERE");
+		}
+		else
+		{
+			System.out.println("Cannot identify animal.");
 		}
 		
 	}
