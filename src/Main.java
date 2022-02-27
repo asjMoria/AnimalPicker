@@ -6,21 +6,27 @@ public class Main
 	{
 		Scanner userIn = new Scanner(System.in);
 		
-		System.out.println("Would you like to see a dog or a cat?");
-		String ans = userIn.nextLine().toLowerCase();
+		boolean validAnswer = false;
 		
-		if (ans.equals("cat"))
+		while (!validAnswer)
 		{
-			System.out.println("INSERT CAT IMAGE HERE");
+			validAnswer = true;
+			System.out.println("Would you like to see a dog or a cat?");
+			String ans = userIn.nextLine().toLowerCase();
+			
+			if (ans.equals("cat"))
+			{
+				System.out.println("INSERT CAT IMAGE HERE");
+			}
+			else if (ans.equals("dog"))
+			{
+				System.out.println("INSERT DOG IMAGE HERE");
+			}
+			else
+			{
+				System.out.println("Cannot identify animal.");
+				validAnswer = false;
+			}
 		}
-		else if (ans.equals("dog"))
-		{
-			System.out.println("INSERT DOG IMAGE HERE");
-		}
-		else
-		{
-			System.out.println("Cannot identify animal.");
-		}
-		
 	}
 }
