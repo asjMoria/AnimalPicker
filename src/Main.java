@@ -11,7 +11,7 @@ public class Main
 		while (!validAnswer)
 		{
 			validAnswer = true;
-			System.out.println("Would you like to see a dog or a cat?");
+			System.out.println("Would you like to see a dog, a cat, or a fish?");
 			String ans = userIn.nextLine().toLowerCase();
 			
 			if (ans.equals("cat"))
@@ -21,6 +21,10 @@ public class Main
 			else if (ans.equals("dog"))
 			{
 				System.out.println("                                  .-.\n     (___________________________()6 `-,\n     (   ______________________   /\'\'\"`\n     //\\\\                      //\\\\\n     \"\" \"\"                     \"\" \"\"");
+			}
+			else if (ans.equals("fish"))
+			{
+				System.out.println("      /\\\n    _/./\n ,-\'    `-:..-\'/\n: o )      _  (\n\"`-....,--; `-.\\\n    `\'");
 			}
 			else
 			{
